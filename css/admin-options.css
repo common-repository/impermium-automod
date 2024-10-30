@@ -1,0 +1,45 @@
+label { width: 200px; display: inline-block; }
+.impr_enter_api_key label { width: 50px; }
+input[type=text] { width: 400px; }
+.impr_add_request_form { display: none; }
+.impr-updated {
+	padding: 10px;
+	background-color: lightYellow;
+	border: 1px solid #E6DB55;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.impr-active {
+	padding: 10px;
+	background-color: #caffcd;
+	border: 1px solid #27820d;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.impr-error { padding-left: 5px; color: red; }
+.submitrow input { margin-left: -2px !important; }
+#impr_mod_config table {
+  border-spacing: 0 !important;
+}
+#impr_mod_config tr td, #impr_mod_config tr th {
+  width: 150px;
+  text-align: center;
+  padding: 8px;
+  margin: 0;
+  font-size: 14px;
+}
+#impr_mod_config .impr_mod_title {
+  text-align: right;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.wp-pointer-content h3 {
+  padding: 5px 0 5px 10px !important;
+}
+
+.wp-pointer-content h3::before {
+  background-image: none !important;
+}
